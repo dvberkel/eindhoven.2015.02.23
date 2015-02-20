@@ -1,0 +1,22 @@
+{
+  "name": "eindhoven.2015.02.23",
+  "version": "1.0.0",
+  "homepage": "https://github.com/dvberkel/eindhoven.2015.02.23",
+  "authors": [
+    "Daan van Berkel <daan.vanberkel@infosupport.com>"
+  ],
+  "description": "Demonstration code by the lecture of 2015.02.23",
+  "main": "index.html",
+  "keywords": [
+    "demo"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
