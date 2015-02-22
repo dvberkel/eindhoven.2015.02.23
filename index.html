@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="css/kwetter.css"/>
   </head>
-  <body>
+  <body ng-controller="timeline">
     <section class="container-fluid">
       <section class="header row">
         <h1 class="col-md-4 col-md-offset-4">Kwetter</h1>
       </section>
-      <section class="view row" ng-controller="timeline">
+      <section class="view row" ng-repeat="tweet in tweets">
         <div class="tweet col-md-8 col-md-offset-2">
           <div class="content">
             <img class="avatar" src="{{tweet.avatar}}" alt="">

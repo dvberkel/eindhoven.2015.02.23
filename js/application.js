@@ -11,6 +11,10 @@
     }
 
     kwetterApp.controller('timeline', function($scope){
-        $scope.tweet = aTweet('Kittens are fantastic', 128, 'image/placeholder1.gif');
+        $scope.tweets = [
+            aTweet('Kittens are fantastic', 128, 'image/placeholder1.gif'),
+            aTweet('Kittens are awesome', 51, 'image/placeholder2.gif'),
+            aTweet('Kittens are stupid', 0, 'image/placeholder3.gif')
+        ];
     });
 })();
