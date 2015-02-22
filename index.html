@@ -13,13 +13,7 @@
         <h1 class="col-md-4 col-md-offset-4">Kwetter</h1>
       </section>
       <section class="view row" ng-repeat="tweet in tweets">
-        <div class="tweet col-md-8 col-md-offset-2">
-          <div class="content">
-            <img class="avatar" src="{{tweet.avatar}}" alt="">
-            <p class="tweet-text" >{{tweet.content}}</p>
-          </div>
-          <div class="info"><span class="favourite">{{tweet.favourite}}</span></div>
-        </div>
+        <tweet></tweet>
       </section>
     </section>
     <script src="bower_components/angular/angular.min.js"></script>
