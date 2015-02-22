@@ -2,11 +2,15 @@
     console.log('Write your application here!');
     var kwetterApp = angular.module('kwetterApp', []);
 
-    kwetterApp.controller('timeline', function($scope){
-        $scope.tweet = {
-            'avatar': 'image/placeholder2.gif',
-            'content': 'Kittens are awesome!',
-            'favourite': 51
+    function aTweet(content, favourite, avatar) {
+        return {
+            'avatar': avatar || 'image/placeholder1.gif',
+            'favourite': favourite || 0,
+            'content': content || 'Hello World!'
         };
+    }
+
+    kwetterApp.controller('timeline', function($scope){
+        $scope.tweet = aTweet('Kittens are fantastic', 128, 'image/placeholder1.gif');
     });
 })();
