@@ -1,0 +1,31 @@
+.view {
+  margin-bottom: 5px;
+}
+
+.tweet {
+  border-style: solid;
+  border-color: #00539f;
+  border-width: 1px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.avatar {
+  float: left;
+}
+
+.tweet-text {
+  margin-left: 78px;
+}
+
+.favourite::before {
+  content: "\2606"
+}
+
+.info {
+  clear: both;
+  padding-top: 5px;
+  border-top-style: solid;
+  border-top-color: #00539f;
+  border-top-width: 1px;
+}
